@@ -1,0 +1,17 @@
+.pixel{
+    width:20px;
+    height:20px;
+    background-color: white;
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: -1px;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pixel:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
